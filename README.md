@@ -3,6 +3,7 @@ This Repository allows to convert *.weights file of darknet format to *.pt (pyto
 Based on ultralytics repository (archive branch).This module converts *.weights files to *.pt and to *.onnx
     
 Please keep in mind to delete the next fields from cfg file because the parser doesnt support them and of course they dont impact inference:
+
     1. jitter
     2. nms_threshold
     3. threshold
